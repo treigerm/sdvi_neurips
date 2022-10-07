@@ -1,0 +1,8 @@
+# @package _group_
+_target_: models.real_gmm.StochasticInfiniteGMMModel
+data_path: "TODO: Add local path to data"
+validation_data_path: "TODO: Add local path to data"
+cluster_means_dim: 100
+num_observations: 1000
+cluster_means_prior_std: 10
+num_subsample: 100

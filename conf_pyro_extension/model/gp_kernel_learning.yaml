@@ -1,0 +1,3 @@
+# @package _group_
+_target_: models.gp_kernel_learning.GPKernelLearning
+data_path: "TODO: Add local path to data"

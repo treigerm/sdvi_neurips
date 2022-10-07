@@ -1,0 +1,6 @@
+_target_: BBVI
+learning_rate: 0.01
+evaluate_every_n: 10
+num_elbo_particles: 1
+num_iterations: 100
+num_posterior_samples: 10

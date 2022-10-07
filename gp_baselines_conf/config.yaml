@@ -1,0 +1,20 @@
+hydra:
+  run:
+    dir: ./experiments/${name}/${hydra.job.override_dirname}/seed=${seed}
+  sweep:
+    dir: ./experiments/${name}/${hydra.job.override_dirname}
+  job:
+    config:
+      override_dirname:
+        item_sep: '_'
+        exclude_keys:
+          - seed
+          - name
+
+defaults:
+  # - launcher: slurm
+  - inference_algo: bbvi
+  # - override hydra/launcher: submitit_slurm
+
+name: test_gp_baselines
+seed: 0

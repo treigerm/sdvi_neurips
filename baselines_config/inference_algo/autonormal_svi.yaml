@@ -1,0 +1,7 @@
+_target_: "AutoNormalMessengerSVI"
+gradient_estimator: "reparam"
+learning_rate: 0.001
+num_steps: 100
+num_particles: 1
+num_posterior_samples: 1000
+num_checkpoints: 10

@@ -1,0 +1,9 @@
+_target_: models.pyro_extensions.dcc.DCC
+num_iterations: 10
+num_chains: 10
+num_init_mcmc: 10
+num_mcmc_steps_per_iteration: 10
+num_pi_mais_samples: 10
+num_slp_samples: 100
+min_num_proposed: 1
+sigma: 1.0 # Proposal width for PI-MAIS

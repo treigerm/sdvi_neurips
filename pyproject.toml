@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "vi_stochastic_support"
+version = "0.1.0"
+description = ""
+authors = ["Anonymous"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyro-ppl = "^1.6.0"
+matplotlib = "^3.4.1"
+pandas = "^1.2.4"
+jupyter = "^1.0.0"
+pylint = "^2.7.4"
+black = "^20.8b1"
+hydra-core = "^1.0.6"
+scipy = "^1.6.3"
+seaborn = "^0.11.2"
+sklearn = "^0.0"
+hydra-joblib-launcher = "^1.1.5"
+arviz = "^0.11.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+rope = "^0.19.0"
+snakeviz = "^2.1.1"
+mypy = "^0.940"
+hydra-submitit-launcher = "^1.1.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

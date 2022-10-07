@@ -1,0 +1,3 @@
+_target_: models.pyro_extensions.resource_allocation.SuccessiveHalving
+num_total_iterations: 100
+num_final_arms: 10

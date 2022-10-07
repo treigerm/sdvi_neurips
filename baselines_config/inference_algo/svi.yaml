@@ -1,0 +1,4 @@
+_target_: SVI
+learning_rate: 0.001
+num_steps: 10000
+num_posterior_samples: 10000
